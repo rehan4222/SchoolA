@@ -1,0 +1,79 @@
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\bin\Debug\SchoolA.exe.config
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\bin\Debug\SchoolA.exe
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\bin\Debug\SchoolA.pdb
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\obj\Debug\SchoolA.csprojResolveAssemblyReference.cache
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\obj\Debug\SchoolA.Class.resources
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\obj\Debug\SchoolA.MainScreen.resources
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\obj\Debug\SchoolA.Properties.Resources.resources
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\obj\Debug\SchoolA.Sections.resources
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\obj\Debug\SchoolA.Student_Entry.resources
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\obj\Debug\SchoolA.Subjects.resources
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\obj\Debug\SchoolA.csproj.GenerateResource.Cache
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\obj\Debug\SchoolA.exe
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\obj\Debug\SchoolA.pdb
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\bin\Debug\EntityFramework.dll
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\bin\Debug\EntityFramework.xml
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\obj\Debug\SchoolA.Fee.resources
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\obj\Debug\SchoolA.Class_Fee_Entry.resources
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\obj\Debug\SchoolA.TeachersRecord.resources
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\obj\Debug\SchoolA.TeacherSubjectMapping.resources
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\obj\Debug\SchoolA.TeacherClassMapping.resources
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\obj\Debug\SchoolA.Time.resources
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\obj\Debug\SchoolA.Add_Days.resources
+c:\users\aamir\documents\visual studio 2015\Projects\SchoolA\SchoolA\obj\Debug\SchoolA.Add_TimeTable.resources
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\bin\Debug\SchoolA.exe.config
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\obj\Debug\SchoolA.exe
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\obj\Debug\SchoolA.pdb
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\bin\Debug\SchoolA.exe
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\bin\Debug\SchoolA.pdb
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\bin\Debug\EntityFramework.dll
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\bin\Debug\EntityFramework.SqlServer.dll
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\bin\Debug\EntityFramework.xml
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\bin\Debug\EntityFramework.SqlServer.xml
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\obj\Debug\SchoolA.csprojResolveAssemblyReference.cache
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\obj\Debug\SchoolA.Add_Days.resources
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\obj\Debug\SchoolA.Add_TimeTable.resources
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\obj\Debug\SchoolA.Class.resources
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\obj\Debug\SchoolA.Class_Fee_Entry.resources
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\obj\Debug\SchoolA.Fee.resources
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\obj\Debug\SchoolA.MainScreen.resources
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\obj\Debug\SchoolA.Properties.Resources.resources
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\obj\Debug\SchoolA.Sections.resources
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\obj\Debug\SchoolA.Student_Entry.resources
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\obj\Debug\SchoolA.Subjects.resources
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\obj\Debug\SchoolA.TeacherClassMapping.resources
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\obj\Debug\SchoolA.TeachersRecord.resources
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\obj\Debug\SchoolA.TeacherSubjectMapping.resources
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\obj\Debug\SchoolA.Time.resources
+F:\HARFSOL\School\SchooLa\SchoolA\SchoolA\obj\Debug\SchoolA.csproj.GenerateResource.Cache
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\bin\Debug\SchoolA.exe.config
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.exe
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.pdb
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\bin\Debug\SchoolA.exe
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\bin\Debug\SchoolA.pdb
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\bin\Debug\EntityFramework.dll
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\bin\Debug\EntityFramework.xml
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.csprojResolveAssemblyReference.cache
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.Add_Days.resources
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.Add_TimeTable.resources
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.Class.resources
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.Class_Fee_Entry.resources
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.Fee.resources
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.MainScreen.resources
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.Properties.Resources.resources
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.Sections.resources
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.Student_Entry.resources
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.Subjects.resources
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.TeacherClassMapping.resources
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.TeachersRecord.resources
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.TeacherSubjectMapping.resources
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.Time.resources
+C:\Users\Aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.csproj.GenerateResource.Cache
+C:\Users\aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.FeeChallan.resources
+C:\Users\aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.Fee_Receiving.resources
+C:\Users\aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.Attendence_Sheet.resources
+C:\Users\aamir\Dropbox\Harfsol Products\SchooLa\SchoolA\obj\Debug\SchoolA.Result_Sheet.resources

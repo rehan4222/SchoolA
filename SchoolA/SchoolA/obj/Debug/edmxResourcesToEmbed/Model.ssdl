@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SMSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Add Days Details">
+    <Key>
+      <PropertyRef Name="DayID" />
+    </Key>
+    <Property Name="DayID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Days" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ClassDetails">
+    <Key>
+      <PropertyRef Name="ClassID" />
+    </Key>
+    <Property Name="ClassID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClassName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ClassFeeEntry">
+    <Key>
+      <PropertyRef Name="FeesID" />
+    </Key>
+    <Property Name="FeesID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Class Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Fees Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FeeTerm" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Fee Amount" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ClassSectionMap">
+    <Key>
+      <PropertyRef Name="MapID" />
+    </Key>
+    <Property Name="MapID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClassSection" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FeeType">
+    <Key>
+      <PropertyRef Name="FeeID" />
+    </Key>
+    <Property Name="FeeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FeeType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FeeTerm" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FeeAmount" Type="int" />
+  </EntityType>
+  <EntityType Name="SchoolRecord">
+    <Key>
+      <PropertyRef Name="SchooLID" />
+    </Key>
+    <Property Name="SchooLID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SchoolName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SchoolAddress" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SchoolContact" Type="int" Nullable="false" />
+    <Property Name="SchoolFax" Type="int" Nullable="false" />
+    <Property Name="SchoolEmail" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SchoolWebsite" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SchoolBankName" Type="nvarchar" MaxLength="50" />
+    <Property Name="SchoolBankAddress" Type="nvarchar" MaxLength="50" />
+    <Property Name="SchoolBankAccount" Type="int" />
+  </EntityType>
+  <EntityType Name="SectionDetails">
+    <Key>
+      <PropertyRef Name="SectionID" />
+    </Key>
+    <Property Name="SectionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SectionName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StockDetails">
+    <Key>
+      <PropertyRef Name="StockID" />
+    </Key>
+    <Property Name="StockID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StockName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StockType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SupplierName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StockQtyPurchase" Type="int" Nullable="false" />
+    <Property Name="StockQtyPresent" Type="int" Nullable="false" />
+    <Property Name="StockQtySale" Type="int" Nullable="false" />
+    <Property Name="StockPurPrice" Type="int" Nullable="false" />
+    <Property Name="StockSalPrice" Type="int" Nullable="false" />
+    <Property Name="StockTotPrice" Type="int" Nullable="false" />
+    <Property Name="StockDate" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StudentDetails">
+    <Key>
+      <PropertyRef Name="StudentID" />
+    </Key>
+    <Property Name="StudentID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StudentName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentFname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentMname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentDOB" Type="date" Nullable="false" />
+    <Property Name="StudentSession" Type="int" Nullable="false" />
+    <Property Name="StudentGender" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentNationality" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentFatherContact" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentAdmdate" Type="date" Nullable="false" />
+    <Property Name="StudentPreviousClass" Type="nvarchar" MaxLength="50" />
+    <Property Name="StudentPreviousSchool" Type="nvarchar" MaxLength="50" />
+    <Property Name="StudentTemporaryAdd" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentPermanentAdd" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentClass" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentSection" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentReligion" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentRemarks" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StudentFee">
+    <Key>
+      <PropertyRef Name="StudentFeeID" />
+    </Key>
+    <Property Name="StudentFeeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FeeChallanID" Type="int" Nullable="false" />
+    <Property Name="StudentName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentFname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentClass" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FeeType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FeeTerm" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FeeIssueDate" Type="date" Nullable="false" />
+    <Property Name="FeeDueDate" Type="date" Nullable="false" />
+    <Property Name="FeeAmount" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SubjectDetails">
+    <Key>
+      <PropertyRef Name="SubjectID" />
+    </Key>
+    <Property Name="SubjectID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubjectName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SubjectClass" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TeacherClassMap">
+    <Key>
+      <PropertyRef Name="TeacherClassID" />
+    </Key>
+    <Property Name="TeacherClassID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TeacherName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ClassSectionName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TeacherRecord">
+    <Key>
+      <PropertyRef Name="TeacherID" />
+    </Key>
+    <Property Name="TeacherID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TeacherName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TeacherFName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TeacherCNIC" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TeacherContact" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TeacherTemporaryAddress" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TeacherPermanentAddress" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TeacherEducation" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TeacherSubjectMap">
+    <Key>
+      <PropertyRef Name="TeacherSubID" />
+    </Key>
+    <Property Name="TeacherSubID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TeacherName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SubjectAssigned" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Terms">
+    <Key>
+      <PropertyRef Name="TermsID" />
+    </Key>
+    <Property Name="TermsID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Terms" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TimeTable">
+    <Key>
+      <PropertyRef Name="TimeTableID" />
+    </Key>
+    <Property Name="TimeTableID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClassName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SubjectName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TeacherName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Timing" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Day" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Timing">
+    <Key>
+      <PropertyRef Name="TimingID" />
+    </Key>
+    <Property Name="TimingID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Time" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserDetails">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserFname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserEmail" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserContact" Type="int" Nullable="false" />
+    <Property Name="UserAddress" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="SMSModelStoreContainer">
+    <EntitySet Name="Add Days Details" EntityType="Self.Add Days Details" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ClassDetails" EntityType="Self.ClassDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ClassFeeEntry" EntityType="Self.ClassFeeEntry" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ClassSectionMap" EntityType="Self.ClassSectionMap" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FeeType" EntityType="Self.FeeType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SchoolRecord" EntityType="Self.SchoolRecord" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SectionDetails" EntityType="Self.SectionDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StockDetails" EntityType="Self.StockDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StudentDetails" EntityType="Self.StudentDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StudentFee" EntityType="Self.StudentFee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SubjectDetails" EntityType="Self.SubjectDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TeacherClassMap" EntityType="Self.TeacherClassMap" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TeacherRecord" EntityType="Self.TeacherRecord" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TeacherSubjectMap" EntityType="Self.TeacherSubjectMap" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Terms" EntityType="Self.Terms" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TimeTable" EntityType="Self.TimeTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Timing" EntityType="Self.Timing" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserDetails" EntityType="Self.UserDetails" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
